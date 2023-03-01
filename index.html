@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Human Anatomy 3D Model</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+     iframe {
+        display: block;
+        width: 98vw;
+        height: 70vh;
+        border: none;
+      }
+  </style>
+</head>
+
+<body>
+
+  <!-- Anatomy viewer -->
+  <div class="container-fluid">
+    
+      <div class="col-md-3">
+        <div class="structure-info">
+          <h2>Just a Web page to dispage 3d Visuals</h2>
+          <p>3d illustrations/models is embbeded from other 3rd party websites which provide 3d models to use for free for the sake of research purpose.</p>
+        </div>
+      </div>
+    
+  </div>
+
+  <!-- Search bar -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button class="btn btn-primary">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sketchfab-embed-wrapper" style="text-align: center;"> 
+    <iframe title="Brain" frameborder="0" allowfullscreen mozallowfullscreen="true" 
+    webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking 
+    execution-while-out-of-viewport execution-while-not-rendered web-share width="100vw" height="100vh" 
+    src="https://sketchfab.com/models/dbb8fa9a09624d8295815400cac67cc7/embed?autostart=1&preload=1&ui_hint=2&ui_theme=dark"> 
+  </iframe> 
+  <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a 
+      target="_blank" style="font-weight: bold; color: #1CAAD9;"> Developed by</a> by <a
+      target="_blank" style="font-weight: bold; color: #1CAAD9;"> Asad Saleem</a> in <a
+      href="www.stmu.edu.pk"
+      target="_blank" style="font-weight: bold; color: #1CAAD9;">STMU Lab</a>
+  </p>
+  </div>
+
+  <div class="sketchfab-embed-wrapper" style="text-align: center;">
+    <iframe title="Ecorche Anatomy Study" frameborder="0" allowfullscreen mozallowfullscreen="true"
+      webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+      execution-while-out-of-viewport execution-while-not-rendered web-share width="100vw" height="100vh"
+      src="https://sketchfab.com/models/85249bf91630484dbfa60fee568875d3/embed?autospin=1&autostart=1&preload=1&ui_hint=2&ui_theme=dark">
+    </iframe>
+    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+      <a 
+        target="_blank" style="font-weight: bold; color: #1CAAD9;"> Developed by</a> by <a
+        target="_blank" style="font-weight: bold; color: #1CAAD9;"> Asad Saleem</a> in <a
+        href="www.stmu.edu.pk"
+        target="_blank" style="font-weight: bold; color: #1CAAD9;">STMU Lab</a>
+    </p>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="three.min.js"></script>
+  <script src="OrbitControls.js"></script>
+  <script src="anatomy.js"></script>
+</body>
+
+</html>
